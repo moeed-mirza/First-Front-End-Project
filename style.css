@@ -1,0 +1,53 @@
+
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(216, 212, 212);
+}
+.Heading{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  align-items: center;
+  text-align: center;
+}
+.input{
+  outline: none;
+ border: 1px solid rgb(231, 218, 218);
+ border-radius: 5px;
+ width: 200px;
+ height: 25px;
+}
+.btn{
+  outline: none;
+  border-radius: 5px;
+  background: rgb(30, 30, 30);
+  color : white;
+  box-shadow: 0 0 5px rgb(90, 90, 90);
+  width: 75px;
+  height: 25px;
+}
+.text{
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  text-align: left;
+}
+.input::placeholder{
+  color: rgb(80, 80, 80);
+}
+.card-component{
+  width: 350px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  display: block;
+}
+
+
+
